@@ -127,7 +127,7 @@ id serial PRIMARY KEY UNIQUE,
 price numeric(10,2) NOT NULL,
 count_product integer NOT NULL,
 shop_id integer REFERENCES shop (id) NOT NULL,
-supplier_id integer REFERENCES suplier (id),
+supplier_id integer REFERENCES supplier (id),
 product_name_id integer REFERENCES product_name (id)
 )
 
